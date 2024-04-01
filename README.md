@@ -1,1 +1,1 @@
-This is a ecommerce website made by html5, css3 and bootstrap 5.
+This is an ecommerce website made by html5, css3 and bootstrap 5.
