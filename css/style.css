@@ -129,4 +129,106 @@ button {
     outline: 0;
 }
 
+li a {
+    color: var(--text-white);
 
+}
+
+
+a:hover,
+button:hover {
+    transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+
+::-webkit-scrollbar {
+    width:10rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--text-white);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+}
+
+
+.main-btn{
+    position: relative;
+    color: var(--bg-white);
+    background: linear-gradient(to right, #0f7404,#5cb917);
+    z-index: 1;
+    overflow: hidden;
+    border: 0.2rem solid var(--bg-white);
+    border-radius: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem 3.5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.main-btn:hover{
+    background: var(--bg-white);
+    color: var(--secondary-color);
+    border: 0.2rem solid var(--secondary-color);
+}
+
+section{
+    padding: 5rem 0;
+}
+
+.section-title{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--primary-text);
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.section-subtitle{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-text);
+    font-family: var(--secondary-font);
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section{
+   
+    background: url(../images/banner-slide/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    min-height: auto;
+}
+
+
+/* 01 navbar css */
+
+.header{
+    position: absolute;
+    width:100%;
+    top: 2rem;
+    left:0;
+    z-index:2;
+}
+
+.header .navbar{
+    background: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 2rem 5rem;
+}
