@@ -207,7 +207,7 @@ section{
 .gallery .banner_section,
 .contact .banner_section{
    
-    background: url(../images/banner-slide/top-banner.jpg);
+    background: url('../images/banner-slide/top-banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -606,3 +606,21 @@ section{
     color: var(--primary-text);
     font-weight: 600;
 }
+
+
+
+/* 09 About Page CSS */
+.about_section img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.about .about-details p{
+    color: var(--primary-text);
+}
+
+/* 10 Product Page CSS */
+
+
+/* 11 Contact Page CSS */
