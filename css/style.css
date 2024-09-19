@@ -621,6 +621,8 @@ section{
 }
 
 /* 10 Product Page CSS */
-
+.product .product-details p{
+    margin-bottom: 1.5rem;
+}
 
 /* 11 Contact Page CSS */
